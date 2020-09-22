@@ -1,0 +1,5 @@
+DROP TABLE IF EXISTS account;
+CREATE TABLE account(
+    id SERIAL PRIMARY KEY,
+    customer_id INT UNIQUE NOT NULL
+);

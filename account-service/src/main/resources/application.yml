@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/testdb
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: admin
+    initialization-mode: always
+logging:
+  level:
+    root: INFO
+    model.mapper: TRACE
